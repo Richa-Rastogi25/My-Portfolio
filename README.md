@@ -17,6 +17,16 @@ Features:-
 - Routing implemented with react-router-dom.
 - Fully responsive design for mobile, tablet, and desktop screens.
 
+| Technology Used  | Purpose                         |
+| ---------------- | ------------------------------- |
+| React.js         | Frontend framework              |
+| React Router DOM | For navigation between sections |
+| HTML5            | Structure                       |
+| CSS3             | Styling                         |
+| Inline CSS       | Custom styling                  |
+| Bootstrap        | Navigation bar layout           |
+| JavaScript (ES6) | Component logic                 |
+
 Functional Highlights:-
 1. Auto text rotation in Home page.
 2. Resume download/redirect through a PDF link.
