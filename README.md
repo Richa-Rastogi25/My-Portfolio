@@ -1,73 +1,72 @@
-# Getting Started with Create React App
+My Portfolio Website – React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a fully responsive personal portfolio website built using React.js.
+It showcases my skills, projects, qualifications, and contact information in a clean and professional interface.
+The purpose of this assignment was to develop, optimize, and deploy a React-based portfolio website.
 
-## Available Scripts
+Features:-
+- React Frontend | Built using modular React components:
+1. Home
+2. About Me
+3. Skills
+4. Projects
+5. Resume
+6. Contact Page
+7. Navbar
 
-In the project directory, you can run:
+- Routing implemented with react-router-dom.
+- Fully responsive design for mobile, tablet, and desktop screens.
 
-### `npm start`
+Functional Highlights:-
+1. Auto text rotation in Home page.
+2. Resume download/redirect through a PDF link.
+3. External links (email, LinkedIn) open safely in a new tab.
+4. Clean and visually appealing UI with consistent theme colors.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Performance Optimization:-
+- To ensure faster load time and production quality:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Lazy Loading:-
+- Images and components are auto-lazy-loaded by React's default optimization in the production build.
 
-### `npm test`
+Minified Files:-
+- Running npm run build generates:
+1. Minified JavaScript
+2. Minified CSS
+3. Optimized static assets
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Deployment Optimized:-
+Includes redirect rules for GitHub Pages using: https://richa-rastogi25.github.io/My-Portfolio/
+Production Build
 
-### `npm run build`
+To generate a production build:-
+- npm run build
+- This creates an optimized /build folder.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Deployment:-
+- The project was deployed using GitHub Pages.
+Steps followed:
+1. Created production build
+2. Pushed code to GitHub repository
+3. Connected repository to hosting provider
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Tried Configuring:-
+1. Custom domain 
+2. Automatic SSL certificate (HTTPS)
+3. Verified deployment accessibility
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Challenges & Solutions:-
+1. Responsive design adjustments
+Problem: Elements overflowed on small screens.
+Solution: Added padding adjustments and flexible inline styles.
+2. PDF resume not opening
+Problem: Browser blocked download.
+Solution: Used: <Link to="/RichaRastogi.pdf" target="_blank" rel="noopener noreferrer">
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# My-Portfolio" 
-"# My-Portfolio" 
-"# My-Portfolio" 
+Conclusion:-
+This project demonstrates my ability to:
+1. Build a production-ready React application
+2. Implement routing and UI components
+3. Optimize performance
+4. Tried deploying to a live server
+5. Tried managing a complete frontend project professionally
